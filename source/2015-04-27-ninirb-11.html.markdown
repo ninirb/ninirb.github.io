@@ -1,0 +1,24 @@
+---
+title: 第11回
+date: 2015-04-27 12:38 UTC
+tags:
+---
+
+# [第11回](https://nishinipporirb.doorkeeper.jp/events/23006)
+
+## ログ
+
+mtsmfm [8:55 PM]
+今日は middleman で http://ninirb.github.io 作ります
+
+joe-re [8:55 PM]
+今日はrailsでreactしたいと思ってます！まずはreact-railsで動かしてみようかなーって感じです。
+
+niina [8:56 PM]
+今日はリアクティブプログラミングをRubyでするフレームワークを作ります
+
+ohkuma [8:57 PM]
+dockerでうまくrailsの開発環境作れないかなー、というのを模索する予定
+
+miyamotok0105 [9:48 PM]
+もくもくしてました。

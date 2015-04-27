@@ -78,3 +78,5 @@ activate :deploy do |deploy|
 
   deploy.method = :git
 end
+
+activate :blog

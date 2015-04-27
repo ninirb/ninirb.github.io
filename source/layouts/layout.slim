@@ -5,5 +5,21 @@ html
     title 西日暮里.rb
     = stylesheet_link_tag "normalize", "all"
     = javascript_include_tag  "all"
-  .container
-    = yield
+
+  body
+    .container
+      .row
+        .col.s4
+          = link_to '/' do
+            = image_tag 'logo.png'
+          ul
+            li
+              .divider
+              .section
+                = link_to 'Doorkeeper', 'https://nishinipporirb.doorkeeper.jp'
+            li
+              .divider
+              .section
+                = link_to 'Join the community chat', 'https://ninirb-invitation.herokuapp.com'
+        .col.s8
+          = yield

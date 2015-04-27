@@ -22,3 +22,6 @@ dockerでうまくrailsの開発環境作れないかなー、というのを模
 
 miyamotok0105 [9:48 PM]
 もくもくしてました。
+
+tkymtk [9:53 PM]
+romで参加してました。

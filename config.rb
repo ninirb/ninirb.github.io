@@ -72,5 +72,7 @@ configure :build do
 end
 
 activate :deploy do |deploy|
+  deploy.build_before = true
+
   deploy.method = :git
 end

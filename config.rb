@@ -80,3 +80,7 @@ activate :deploy do |deploy|
 end
 
 activate :blog
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-48013282-4'
+end

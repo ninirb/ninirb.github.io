@@ -12,7 +12,7 @@ html
   body
     nav.red.accent-2 role="navigation"
       .nav-wrapper.container
-        a#logo-container.brand-logo href="#" Nishinippori.rb
+        = link_to 'Nishinippori.rb', '/', class: 'logo-container brand-logo'
 
     .row
       .col.s12.m4.l3
@@ -34,7 +34,7 @@ html
           li
             .divider
             .section
-              = link_to '第11回', '2015/04/27/ninirb-11.html'
+              = link_to '第11回', '/2015/04/27/ninirb-11.html'
 
       .col.s12.m8.l9.z-depth-1
           = yield

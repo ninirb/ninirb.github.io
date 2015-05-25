@@ -9,4 +9,6 @@ deployment:
   production:
     branch: source
     commands:
+      - git config --global user.email "circleci@example.com"
+      - git config --global user.name "circle ci"
       - bundle exec middleman deploy

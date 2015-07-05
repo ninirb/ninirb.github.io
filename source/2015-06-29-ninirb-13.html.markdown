@@ -1,0 +1,50 @@
+---
+title: 1周年記念会
+date: 2015-06-29 00:00 UTC
+tags:
+---
+
+# [西日暮里.rb 1周年記念会 LTもやるよ](https://nishinipporirb.doorkeeper.jp/events/25958)
+
+西日暮里.rb も、おかげさまで1周年を迎えられました。
+記念にささやかですがピザとカジュアルな飲み物でお祝いをし、みんなで LT をしました。
+
+当日は厳正なる `Array#shuffle!` で抽選を行いました。
+
+```ruby
+talkers = [
+  'Rize MISUMI',
+  'joe-re',
+  'Koichi ITO',
+  'Koichiro, Sumi',
+  'takayama taiki',
+  'Fumiaki MATSUSHIMA'
+]
+
+talkers.shuffle!
+
+while talkers.any?
+  gets
+  puts talkers.pop
+end
+```
+
+## LT 資料一覧
+
+見つけられた LT 資料を載せておきます。
+
+### 西日暮里.rb 1周年記念回LT Crystal by Takuya Arita
+
+<script async class="speakerdeck-embed" data-id="09b18b62a9c148ee8020d056bbf5739c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+### 某イベントを支えるRuby by Rize MISUMI
+
+<script async class="speakerdeck-embed" data-id="4b96461b6d054550ae4882b536f3e4da" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+### Detroit Programming City by Koichi ITO
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/7vwSfuc0cP2sXS" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/koic/detroit-programming-city" title="Detroit Programming City" target="_blank">Detroit Programming City</a> </strong> from <strong><a href="//www.slideshare.net/koic" target="_blank">Koichi ITO</a></strong> </div>
+
+### 西日暮里.rb と私 by Fumiaki MATSUSHIMA
+
+<script async class="speakerdeck-embed" data-id="0d83206acb354326a43ceee4fd7ee4e9" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

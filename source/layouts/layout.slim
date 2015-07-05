@@ -10,31 +10,24 @@ html
     = favicon_tag 'images/favicon.ico'
     = google_analytics_universal_tag
   body
-    nav.red.accent-2 role="navigation"
-      .nav-wrapper.container
-        a#logo-container.brand-logo href="#" Nishinippori.rb
-
-    .row
-      .col.s12.m4.l3
-        = link_to '/' do
-          = image_tag 'logo.png', class: 'responsive-img'
-        ul
-          li
-            .divider
-            .section
-              = link_to 'Doorkeeper', 'https://nishinipporirb.doorkeeper.jp'
-          li
-            .divider
-            .section
-              = link_to 'Join the community chat', 'https://ninirb-invitation.herokuapp.com'
-          li
-            .divider
-            .section
-              h5.red-text.text-accent-2 Meetups
-          li
-            .divider
-            .section
-              = link_to '第11回', '2015/04/27/ninirb-11.html'
-
-      .col.s12.m8.l9.z-depth-1
-          = yield
+    header
+      nav
+        a.button-collapse(data-activates='slide-out')
+          i.mdi-navigation-menu
+        .container
+          .page-title= current_article ? current_article.title : '西日暮里.rb'
+        ul#slide-out.side-nav.fixed
+          li.logo = link_to '/' do
+            = image_tag 'logo.png', class: 'logo__image'
+          li= link_to 'Doorkeeper', 'https://nishinipporirb.doorkeeper.jp'
+          li= link_to 'Join the community chat', 'https://ninirb-invitation.herokuapp.com'
+          li.no-padding
+            ul.collapsible.collapsible-accordion
+              li
+                a.collapsible-header Meetups
+                .collapsible-body
+                  ul
+                    li= link_to '第11回', '/2015/04/27/ninirb-11.html'
+    main
+      .container
+        = yield

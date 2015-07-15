@@ -29,6 +29,9 @@ while talkers.any?
 end
 ```
 
+当日飛び入りでの発表もあり、わいわいがやがやと大変楽しい夜になりました。
+参加された方、発表された方、本当にありがとうございました。
+
 ## LT 資料一覧
 
 見つけられた LT 資料を載せておきます。
@@ -48,3 +51,7 @@ end
 ### 西日暮里.rb と私 by Fumiaki MATSUSHIMA
 
 <script async class="speakerdeck-embed" data-id="0d83206acb354326a43ceee4fd7ee4e9" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+### Sprocketsを捨てたい by Masato Noguchi
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mR8aje0S9VGe9y" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/masatonoguchi169/sprockets-49965435" title="Sprocketsを捨てたい" target="_blank">Sprocketsを捨てたい</a> </strong> from <strong><a href="//www.slideshare.net/masatonoguchi169" target="_blank">Masato Noguchi</a></strong> </div>
